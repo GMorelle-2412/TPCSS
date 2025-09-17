@@ -1,0 +1,72 @@
+#Bandeau {
+    width: 100%;
+    display: flex;
+    background-color: green;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+}
+
+
+.container_menu{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 15%;
+    height: 90vh;
+    font-size: 250%;
+}
+
+#menu_haut {
+    display: flex;
+    background-color: fuchsia;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu_bas {
+    display: flex;
+    background-color: yellow;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenu{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+#Contenu {
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    height: 90vh;
+}
+
+#news{
+    display: flex;
+    position: absolute;
+    background-color: chocolate;
+    width: 25%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+}
+
+#pied_de_page {
+    width: 100%;
+    display: flex;
+    background-color: brown;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+}
