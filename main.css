@@ -70,3 +70,8 @@
     align-items: center;
     font-size: 250%;
 }
+
+text{
+    color: blue;
+    font-size: 20px;
+}
