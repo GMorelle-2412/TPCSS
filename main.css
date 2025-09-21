@@ -8,8 +8,7 @@
     font-size: 250%;
 }
 
-
-.container_menu{
+.container_menu {
     display: flex;
     flex-direction: column;
     float: left;
@@ -34,10 +33,11 @@
     justify-content: center;
 }
 
-.contenu{
+.contenu {
     display: flex;
     justify-content: flex-end;
     height: 100%;
+    flex-flow: row;
 }
 
 #Contenu {
@@ -48,9 +48,10 @@
     align-items: center;
     font-size: 250%;
     height: 90vh;
+    flex-direction: column;
 }
 
-#news{
+#news {
     display: flex;
     position: absolute;
     background-color: chocolate;
@@ -71,7 +72,57 @@
     font-size: 250%;
 }
 
-text{
+#text {
+    margin-top: 10%;
+}
+
+#blue {
     color: blue;
     font-size: 20px;
+}
+
+#red {
+    color: red;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+
+.table_red {
+    color: red;
+    font-size: 15px;
+}
+
+.table_vert {
+    display: flex;
+    color: green;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.table_blue {
+    display: flex;
+    color: blue;
+    font-size: 15px;
+    justify-content: center;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
 }
